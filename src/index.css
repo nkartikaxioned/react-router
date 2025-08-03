@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+* {
+  @apply box-border
+}
+
+header {
+  @apply bg-gradient-to-r from-blue-100 to-blue-300
+}
+
+.header-nav {
+  @apply list-none flex gap-2 justify-end;
+}
+
+.header-nav li {
+  @apply px-2 py-1;
+}
+
+.Link-Active {
+  @apply text-amber-400;
+}
